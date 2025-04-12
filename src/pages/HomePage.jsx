@@ -1,4 +1,5 @@
 // src/pages/HomePage.jsx
+import { Link } from 'react-router-dom';
 import bannerImage from '../assets/project.jpg'; // Import the image
 
 function HomePage() {
