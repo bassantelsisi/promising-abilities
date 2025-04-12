@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import ContentPage from './pages/ContentPage';
 import OpportunitiesPage from './pages/OpportunitiesPage';
+import PartnershipsPage from './pages/PartnershipsPage';
 import SupportPage from './pages/SupportPage';
 import './App.css';
 
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
             <Route path="/content" element={<ContentPage />} />
             <Route path="/opportunities" element={<OpportunitiesPage />} />
+            <Route path="/partnerships" element={<PartnershipsPage />} />
             <Route path="/support" element={<SupportPage />} />
           </Routes>
         </main>

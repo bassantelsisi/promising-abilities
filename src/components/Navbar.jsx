@@ -23,6 +23,7 @@ function Navbar() {
           <Link to="/" className="text-teal-700 hover:text-teal-900 font-medium">Home</Link>
           <Link to="/content" className="text-teal-700 hover:text-teal-900 font-medium">Content</Link>
           <Link to="/opportunities" className="text-teal-700 hover:text-teal-900 font-medium">Opportunities</Link>
+          <Link to="/partnerships" className="text-teal-700 hover:text-teal-900 font-medium">Partnerships</Link>
           <Link to="/support" className="text-teal-700 hover:text-teal-900 font-medium">Support</Link>
         </div>
         
@@ -33,6 +34,7 @@ function Navbar() {
               <Link to="/" className="text-teal-700 hover:text-teal-900 font-medium" onClick={() => setIsMenuOpen(false)}>Home</Link>
               <Link to="/content" className="text-teal-700 hover:text-teal-900 font-medium" onClick={() => setIsMenuOpen(false)}>Content</Link>
               <Link to="/opportunities" className="text-teal-700 hover:text-teal-900 font-medium" onClick={() => setIsMenuOpen(false)}>Opportunities</Link>
+              <Link to="/partnerships" className="text-teal-700 hover:text-teal-900 font-medium" onClick={() => setIsMenuOpen(false)}>Partnerships</Link>
               <Link to="/support" className="text-teal-700 hover:text-teal-900 font-medium" onClick={() => setIsMenuOpen(false)}>Support</Link>
             </div>
           </div>
