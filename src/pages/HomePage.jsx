@@ -15,10 +15,10 @@ function HomePage() {
                                 accessible for everyone at Cairo University
                             </p>
                             <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4">
-                                <Link to="/opportunities" className="bg-teal-600 hover:bg-teal-700 text-white font-medium px-6 py-3 rounded-lg text-center">
+                                <Link to="/promising-abilities/opportunities" className="bg-teal-600 hover:bg-teal-700 text-white font-medium px-6 py-3 rounded-lg text-center">
                                     Find Opportunities
                                 </Link>
-                                <Link to="/support" className="bg-white hover:bg-gray-100 text-teal-600 border border-teal-600 font-medium px-6 py-3 rounded-lg text-center">
+                                <Link to="/promising-abilities/support" className="bg-white hover:bg-gray-100 text-teal-600 border border-teal-600 font-medium px-6 py-3 rounded-lg text-center">
                                     Get Support
                                 </Link>
                             </div>
