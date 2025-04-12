@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="app-container min-h-screen flex flex-col">
         <Navbar />
         <main className="flex-grow">
